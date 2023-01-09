@@ -1,0 +1,128 @@
+@font-face {
+    font-family: "overpass";
+    src: url("../Overpass-VariableFont_wght.ttf");
+}
+
+:root {
+    font-family: "overpass";
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: hsl(0, 0%, 0%);
+}
+
+#wrapper {
+    width: 300px;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: hsl(216, 12%, 8%);
+}
+
+#next {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 300px;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: hsl(216, 12%, 8%);
+}
+
+#star {
+    width: 40px;
+    height: 40px;
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 100px;
+    margin-bottom: 30px;
+
+    background-image: url("../images/icon-star.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15px;
+}
+
+h1 {
+    color: white;
+    font-size: 25px;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    font-size: 15px;
+}
+
+#numbers {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#numbers>div {
+    width: 40px;
+    height: 40px;
+    border-radius: 100px;
+    background-color: hsl(213, 19%, 18%);
+    color: gray;
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#numbers>div:hover {
+    background-color: hsl(217, 12%, 63%);
+    color: hsl(213, 19%, 18%);
+    cursor: pointer;
+}
+
+#numbers .active {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+
+button {
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 50px;
+    background-color: hsl(25, 97%, 53%);
+    font-size: 16px;
+    padding: 7px;
+    color: white;
+    border: none;
+
+}
+
+button:active {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+
+#image {
+    width: 150px;
+    height: 170px;
+    background-image: url("../images/illustration-thank-you.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+#result {
+    width: 175px;
+    padding: 10px 15px;
+    text-align: center;
+    border-radius: 50px;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 19%, 18%);
+
+}
