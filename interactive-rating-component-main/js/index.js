@@ -7,3 +7,5 @@ for (let number of rating_buttons) {
 
 let submit_button = document.querySelector("button")
 submit_button.addEventListener("click", submit)
+
+let rating_number = 0;

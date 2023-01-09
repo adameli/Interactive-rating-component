@@ -31,7 +31,7 @@ body {
     justify-content: center;
     align-items: center;
 
-    width: 300px;
+    width: 345px;
     padding: 25px;
     border-radius: 20px;
     background-color: hsl(216, 12%, 8%);
@@ -108,6 +108,10 @@ button:active {
     cursor: pointer;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 #image {
     width: 150px;
     height: 170px;
@@ -117,12 +121,22 @@ button:active {
     background-size: contain;
 }
 
+#thankyou {
+    margin-bottom: 0;
+    margin-top: 25px;
+}
+
 #result {
     width: 175px;
-    padding: 10px 15px;
+    padding: 7px 5px;
+    margin-bottom: 10px;
     text-align: center;
     border-radius: 50px;
     color: hsl(25, 97%, 53%);
     background-color: hsl(213, 19%, 18%);
+    font-size: 13px;
+}
 
+#new_text {
+    text-align: center;
 }
